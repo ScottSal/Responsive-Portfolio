@@ -318,6 +318,11 @@ html {
       transition: all 1s ease;
   }
 
+  #footerbar {
+	position: absolute;
+	bottom: 0;
+}
+
 /* Media Queries */
 
 @media screen and (max-width: 980px) {
