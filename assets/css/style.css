@@ -1,4 +1,8 @@
 /* Custom Styles */
+* {
+    box-sizing: border-box;
+}
+
 html {
     height: 100%;
   }
@@ -326,138 +330,85 @@ html {
 /* Media Queries */
 
 @media screen and (max-width: 980px) {
-	body {
-		width: 100%;
-	}
-	#footerbar,
-	.container {
-		width: 100%;
-		font-size: 100%;
-	}
-	.social-logo {
-		width: 22%;
-		padding: 2px;
-	}
-	.box-heading {
-		text-align: left;
-	}
-	#headerbar {
-		position: static;
-		height: auto;
-	}
-	#head-container {
-		width: 100%;
-		height: auto;
 	
-	}
-	.portfolio-image-div {
-		width: 99%;
-		display: block;
-	}
-	#profile-photo {
-		display: block;
-		float: none;
-		margin: auto;
-		height: 200px;
-	}
 }
 @media screen and (max-width: 768px) {	
-	body {
-		padding: 5px;
-		width: 100%;
-	}
-	#footerbar,
-	.container,
-	.primary-box,
-	.primary-box-tall,
-	aside {
-		width: 100%;
-		font-size: 150%;
-	}
-	.social-logo {
-		width: 12%;
-		padding: 2px;
-	}
-	.box-heading {
-		text-align: left;
-	}
-	#headerbar {
-		position: static;
-		height: auto;
-	}
-	#head-container {
-		width: 100%;
-		height: auto;
 	
-	}
-	#profile-photo {
-	float: left;
-	position: relative;
-	display: inline-block;
-	width: auto;
-	height: 175px;
-	padding: 15px 10px;
-	}
-	.portfolio-image-div {
-	position: relative;
-	display: inline-block;
-	height: auto;
-	width: 45%;
-	top: 10px;
-	margin-left: auto;
-	margin-right: auto;
-	padding: 8px 10px;
-	}	
 }
 @media screen and (max-width: 640px) {	
-	body {
-		width: 100%;
-		padding: 5px;
-	}
-	#footerbar,
-	.container,
-	.primary-box,
-	.primary-box-tall,
-	aside {
-		width: 100%;
-		font-size: 150%;
-	}
-	.social-logo {
-		width: 12%;
-		padding: 2px;
-	}
-	.box-heading {
-		text-align: left;
-	}
-	#headerbar {
-		position: static;
-		height: auto;
-	}
-	#head-container {
-		width: 100%;
-		height: auto;
-	
-	}
-	logo {
-		width: 100%;
-		display: block;
-		text-align: center;
-	}
-	.navigation {
-		width: 100%;
-		display: block;
-		height: auto;
-		text-align: center;
-	}
-	
-	.portfolio-image-div {
-		width: 99%;
-		display: block;
-	}
-	#profile-photo {
-		display: block;
-		float: none;
-		margin: auto;
-		height: 200px;
-	}
-}  
+    .primary-box {
+        height: 500px;
+        width: 75%;
+    }
+    .container {
+        width: 75%;
+    }
+    .text-wrap {
+        font-size: 80%;
+        height: auto;
+    }
+    #head-container {
+        position: relative;
+        width: 75%;
+    }
+    #headerbar {
+        width: 100%;
+        position: relative;
+    }
+
+    .primary-box-heading {
+        width: 35%;
+        align-content: flex-start;
+    }
+    aside {
+        position: relative;
+        width: 60%;
+        align-self: center;
+    }
+    .navigation {
+        width: 100%;
+        position: relative;
+        display: initial;
+        align-items: flex-start;
+        background-color: #fff;
+    }
+    logo {
+        position: relative;
+        align-self: auto;
+        width: 100%
+    }
+    #footerbar {
+        width: 100%;
+    }
+    #profile-image {
+        height: 45%;
+        width: 45%;
+        position: relative;
+    }
+    input,
+    textarea {
+        width: auto;
+    }
+    .button {
+        position: relative;
+    }
+    .primary-box-tall {
+        width: 90%;
+        height: auto;
+    }
+    .portfolio-image {
+        width: 90%;
+        height: 90%;
+        position: relative;
+    }
+    .social-logo {
+        width: 40px;
+        height: 40px;
+        align: center;
+    }
+    .photo-text {
+        width: 60%;
+        font-size: 12px;
+        position: relative;
+    }
+}
